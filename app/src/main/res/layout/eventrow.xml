@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView
+    android:layout_height="240dp"
+    android:layout_margin="6dp"
+
+    android:layout_marginTop="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center_horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    app:cardElevation="2dp"
+    android:id="@+id/cardvw"
+    android:layout_marginBottom="6dp"
+
+    android:clickable="true"
+    android:focusable="true"
+    android:checkable="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@android:color/white"
+        android:padding="10dp"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="150dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.65"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:id="@+id/nameevent"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:text="Loading..."
+                android:layout_height="50dp"/>
+
+                <TextView
+                    android:id="@+id/evlocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+
+                    android:fontFamily="sans-serif-condensed"
+                    android:padding="8dp"
+                    android:text="Loading..."
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="?android:attr/textColorSecondary"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/adminname"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+
+                    android:fontFamily="sans-serif-condensed"
+                    android:padding="8dp"
+                    android:text="Loading..."
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="?android:attr/textColorSecondary"
+                    android:textSize="17sp" />
+
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="0dp"
+                android:scaleType="centerCrop"
+
+
+
+                android:id="@+id/imv"
+                android:src="@drawable/ic_image_black_24dp"
+                android:layout_weight="0.35"
+                android:layout_height="match_parent"/>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="3dp"
+            android:background="@color/colorPrimary"
+            android:layout_height="2dp"/>
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="3dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.40"
+                android:id="@+id/calendaropen"
+
+                android:textAppearance="?attr/textAppearanceHeadline6"
+
+                android:padding="20dp"
+                android:text="@string/Opencalendar"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.20"
+                android:id="@+id/countparticipant"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:padding="20dp"
+
+
+                android:textSize="15sp"
+                android:text="......"
+                android:layout_height="match_parent"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:id="@+id/interested"
+                android:padding="15dp"
+
+
+                android:layout_weight="0.20"
+                android:layout_height="match_parent"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="0.20"
+                android:padding="15dp"
+                android:id="@+id/shareev"
+                android:src="@drawable/ic_share_black_24dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
+

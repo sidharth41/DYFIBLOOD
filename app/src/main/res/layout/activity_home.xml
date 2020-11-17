@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_height="60dp">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="@string/Register"
+            android:backgroundTint="@android:color/white"
+            app:titleTextColor="@color/colorPrimary"
+
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/llforlogin"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="420dp">
+        <com.google.android.material.textfield.TextInputLayout
+
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="280dp"
+            android:layout_gravity="center_horizontal"
+            app:boxStrokeColor="@color/colorPrimary"
+
+            app:hintTextColor="@color/colorPrimary"
+            app:counterTextColor="@color/colorPrimary"
+
+
+            android:layout_height="wrap_content"
+
+            android:hint="@string/Name">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/Name"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="280dp"
+            android:layout_gravity="center_horizontal"
+            app:boxStrokeColor="@color/colorPrimary"
+
+            app:hintTextColor="@color/colorPrimary"
+            app:counterTextColor="@color/colorPrimary"
+
+
+            android:layout_height="wrap_content"
+
+            android:hint="@string/Age">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:id="@+id/Age"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="280dp"
+            android:layout_gravity="center_horizontal"
+            app:boxStrokeColor="@color/colorPrimary"
+
+            app:hintTextColor="@color/colorPrimary"
+            app:counterTextColor="@color/colorPrimary"
+
+
+            android:layout_height="wrap_content"
+
+            android:hint="@string/Email_Address">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/Email"
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="280dp"
+            android:layout_gravity="center_horizontal"
+            app:boxStrokeColor="@color/colorPrimary"
+
+            app:hintTextColor="@color/colorPrimary"
+            app:counterTextColor="@color/colorPrimary"
+
+
+            android:layout_height="wrap_content"
+
+            android:hint="@string/string_Address">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+
+                android:id="@+id/Address"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+            android:layout_width="280dp"
+            android:id="@+id/Bloodgrpregister"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/Blood_group">
+
+            <AutoCompleteTextView
+
+                android:layout_width="match_parent"
+                android:id="@+id/ddownbloodgrp"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/reg"
+            android:backgroundTint="@color/colorPrimary"
+            android:theme="@style/Theme.MaterialComponents"
+            android:layout_width="280dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+
+            android:layout_height="60dp"
+            android:text="@string/Register"
+            />
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBardetailspage"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@android:color/holo_red_dark"
+        android:indeterminateTintMode="src_atop"
+        android:visibility="invisible" />
+
+
+
+</RelativeLayout>

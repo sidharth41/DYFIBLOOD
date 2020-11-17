@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_height="wrap_content"
+         android:layout_margin="6dp"
+
+
+
+        android:layout_marginTop="3dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_gravity="center_horizontal"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        app:cardElevation="4dp"
+        android:id="@+id/cardvw"
+        android:layout_marginBottom="6dp"
+
+        android:clickable="true"
+        android:focusable="true"
+        android:checkable="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:backgroundTint="@android:color/white"
+            android:padding="10dp"
+
+            android:orientation="vertical">
+            <ProgressBar
+                android:id="@+id/progressBardonate"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_below="@+id/topAppBarnoti"
+                android:layout_width="match_parent"
+                android:layout_centerHorizontal="true"
+
+                android:layout_height="10dp"
+                android:indeterminate="true"
+                android:indeterminateTint="@android:color/holo_red_dark"
+                android:indeterminateTintMode="src_atop"
+                android:visibility="invisible" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="30dp">
+                <TextView
+                    android:id="@+id/timeposted"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="30dp"
+                    android:padding="7dp"
+                    android:text="posted on"
+
+
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/dateposted"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+
+                    android:layout_height="30dp"
+                    android:padding="7dp"
+                    android:text="Date"
+                    android:textAlignment="textEnd"
+
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/nameodrequester"
+
+            android:text="Name"
+            android:padding="7dp"
+            android:layout_width="match_parent"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:layout_height="40dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+            <TextView
+                android:id="@+id/unittttt"
+                android:text="Blood group"
+                android:padding="7dp"
+                android:textStyle="bold"
+
+
+                android:textAppearance="?attr/textAppearanceBody2"
+
+                android:layout_width="0dp"
+                android:layout_weight="1.8"
+                android:layout_height="40dp"/>
+              <ImageView
+                  android:layout_width="0dp"
+                  android:background="@drawable/ic_arrow_drop_down_black_24dp"
+                  android:id="@+id/ddbutton"
+
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.2">
+
+              </ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/dropdownlayout"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/timelimitinpost"
+                android:padding="7dp"
+
+                android:text="timelimit"
+
+                android:textAppearance="?attr/textAppearanceBody2"
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+            <TextView
+                android:id="@+id/bloodgroupofrequester"
+                android:text="units"
+
+
+                android:padding="7dp"
+
+
+                android:textAppearance="?attr/textAppearanceBody2"
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+            <TextView
+                android:id="@+id/ageofrequester"
+                android:text="Age"
+                android:padding="7dp"
+
+
+                android:textAppearance="?attr/textAppearanceBody2"
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+            <TextView
+                android:id="@+id/locationofrequester"
+                android:text="Address"
+                android:scrollbars = "horizontal"
+
+                android:padding="7dp"
+
+
+                android:textAppearance="?attr/textAppearanceBody2"
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"/>
+            <com.google.android.material.textfield.TextInputLayout
+
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_horizontal"
+                app:boxStrokeColor="@color/colorPrimary"
+                android:id="@+id/layup"
+
+                app:hintTextColor="@color/colorPrimary"
+                app:counterTextColor="@color/colorPrimary"
+
+
+                android:layout_height="wrap_content"
+
+                android:hint="@string/Unitspossible">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:inputType="number"
+                    android:id="@+id/unitspossible"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+            <Button
+                android:id="@+id/donate"
+                android:backgroundTint="@color/colorPrimary"
+                android:theme="@style/Theme.MaterialComponents"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@android:color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+
+                android:layout_height="60dp"
+                android:text="@string/Donate"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="40dp">
+                <TextView
+                    android:id="@+id/reminder"
+                    android:layout_width="0dp"
+                    android:layout_weight="1.7"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:text="@string/Setreminder"
+
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:id="@+id/share"
+                    android:padding="3dp"
+                    android:src="@drawable/ic_share_black_24dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
+

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Blood</string>
+    <string name="title_activity_ma_inbloodpage" translatable="false">MaInbloodpage</string>
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_dashboard" translatable="false">Dashboard</string>
+    <string name="title_notifications" translatable="false">Notifications</string>
+    <string name="Registration">Registration</string>
+    <string name="Number">Number</string>
+    <string name="GENERATE_OTP">GENERATE OTP</string>
+    <string name="Verification">Verification</string>
+    <string name="OTP" translatable="false">OTP</string>
+    <string name="Verify">Verify</string>
+    <string name="Register">Register</string>
+    <string name="Name">Name</string>
+    <string name="Age">Age</string>
+    <string name="Blood_group">bloodgroup</string>
+    <string name="Request">Request</string>
+    <string name="Notifications">Notifications</string>
+    <string name="Events">Events</string>
+    <string name="Required_units">Required Units</string>
+    <string name="Timelimit">Time limit in Hours</string>
+    <string name="Others">OTHERS</string>
+    <string name="Me">ME</string>
+    <string name="Area">Location</string>
+    <string name="Post">Post</string>
+
+    <string name="Delete">Delete post</string>
+    <string name="Request1">கோரிக்கை</string>
+    <string name="Notifications1">அறிவிப்புகள்</string>
+    <string name="Events1">நிகழ்வுகள்</string>
+    <string name="Profile1">சுயவிவரம்</string>
+    <string name="clanguagebutton">change language</string>
+    <string name="Unitspossible">Units possible</string>
+    <string name="Donate">Donate</string>
+    <string name="Setreminder">Set Reminder</string>
+    <string name="Opencalendar">Open calendar</string>
+    <string name="count">Donation count</string>
+    <string name="Profile">Profile</string>
+    <string name="string_Address">Address</string>
+    <string name="Email_Address">EmailAddress</string>
+    <string name="textsample">தமிழ்நாட்டில் அதிகமான  இரத்ததானம் செய்த ஒரே அமைப்பு </string>
+
+    <string name="fback">Feedback</string>
+    <string name="AD">"About Developer"</string>
+    <string name="detailsfill">"Fill appropriate details"</string>
+    <string name="smspermission">Allow sms permission for this app in settings before posting or donating</string>
+
+    <string name="textsample1"> <font color='#EE0000'>இந்திய ஜனநாயக வாலிபர் சங்கம்(DYFI).</font></string>
+    <string name="South">"திருப்பூர்"</string>
+    <string name="South1">"தெற்கு ஒன்றியம்"</string>
+
+
+</resources>
