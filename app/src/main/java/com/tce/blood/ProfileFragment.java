@@ -31,6 +31,7 @@ import static android.content.Context.MODE_PRIVATE;
 
 public class ProfileFragment extends Fragment {
     TextInputEditText namep;
+    //final commit check
     TextInputEditText numberp;
     TextInputEditText bloodp;
     TextInputEditText countprofile,donum,add,eadd;
