@@ -41,18 +41,18 @@
         android:textAlignment="center"
         android:textColor="@color/colorPrimary"
         android:textSize="18sp" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_below="@+id/tprtext"
-        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
         android:fontFamily="@font/alfa_slab_one"
         android:text="@string/South1"
         android:textAlignment="center"
-        android:textStyle="bold"
-        android:layout_marginTop="15dp"
         android:textColor="@color/colorPrimary"
-        android:textSize="17sp" />
+        android:textSize="17sp"
+        android:textStyle="bold" />
 
     <ImageView
 

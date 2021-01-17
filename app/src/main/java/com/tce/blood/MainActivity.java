@@ -77,21 +77,21 @@ public class MainActivity extends AppCompatActivity {
                             else{
                                 startActivity(new Intent(MainActivity.this,Home.class));
                                 progressBar.setVisibility(View.INVISIBLE);
-                                finish();
+                finish();
 
-                            }
-                        }
+            }
+        }
 
-                        @Override
-                        public void onCancelled(@NonNull DatabaseError databaseError) {
-
-
-
-                        }
-                    });
+        @Override
+        public void onCancelled(@NonNull DatabaseError databaseError) {
 
 
-                }
+
+        }
+    });
+
+
+}
             }
         },3000);
 

@@ -92,8 +92,8 @@ public class Home extends AppCompatActivity {
                      progressBar.setVisibility(View.GONE);
                     Intent intent = new Intent(Home.this,Bloodhome.class);
 
-                    startActivity(intent);
 
+                    startActivity(intent);
                 }
 
 
